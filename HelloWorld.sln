@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{CBBB5ABA-A28D-4CBB-935D-6D722F3BFEC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise 1 Class 1", "..\Exercise 1 Class 1\Exercise 1 Class 1.csproj", "{3E6B5F72-B306-44AE-B4F0-9422965FAE51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BirthdayCard", "BirthdayCard\BirthdayCard.csproj", "{B3B6F703-09B0-45C4-BC95-40098C923F44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBBB5ABA-A28D-4CBB-935D-6D722F3BFEC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBBB5ABA-A28D-4CBB-935D-6D722F3BFEC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBBB5ABA-A28D-4CBB-935D-6D722F3BFEC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBBB5ABA-A28D-4CBB-935D-6D722F3BFEC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E6B5F72-B306-44AE-B4F0-9422965FAE51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E6B5F72-B306-44AE-B4F0-9422965FAE51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E6B5F72-B306-44AE-B4F0-9422965FAE51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E6B5F72-B306-44AE-B4F0-9422965FAE51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3B6F703-09B0-45C4-BC95-40098C923F44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3B6F703-09B0-45C4-BC95-40098C923F44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3B6F703-09B0-45C4-BC95-40098C923F44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3B6F703-09B0-45C4-BC95-40098C923F44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
