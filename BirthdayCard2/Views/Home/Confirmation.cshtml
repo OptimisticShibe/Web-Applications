@@ -1,0 +1,19 @@
+﻿@model BirthdayCard2.Models.CardData
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+<style>
+    .btn a {
+        color: white;
+        text-decoration: none;
+    }
+
+    body {
+        background-color: #f1f1f1;
+    }
+</style>
+<!DOCTYPE html>
+
+<h1>Birthday Card Sent</h1>
+
+<p><text>From: @Model.Recipient</text></p>
+<p><text>To: @Model.Sender</text></p>
+<p><text>Message: @Model.Message</text></p>

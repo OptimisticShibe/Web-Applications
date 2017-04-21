@@ -31,3 +31,36 @@ C:\source\Web Applications in C Sharp\BirthdayCard\bin\System.Web.Mvc.xml
 C:\source\Web Applications in C Sharp\BirthdayCard\obj\Debug\BirthdayCard.csprojResolveAssemblyReference.cache
 C:\source\Web Applications in C Sharp\BirthdayCard\obj\Debug\BirthdayCard.dll
 C:\source\Web Applications in C Sharp\BirthdayCard\obj\Debug\BirthdayCard.pdb
+C:\source\2nd Web Apps Attempt\BirthdayCard\bin\roslyn\csc.exe
+C:\source\2nd Web Apps Attempt\BirthdayCard\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\source\2nd Web Apps Attempt\BirthdayCard\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\source\2nd Web Apps Attempt\BirthdayCard\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\source\2nd Web Apps Attempt\BirthdayCard\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\source\2nd Web Apps Attempt\BirthdayCard\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\source\2nd Web Apps Attempt\BirthdayCard\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\source\2nd Web Apps Attempt\BirthdayCard\bin\roslyn\System.Collections.Immutable.dll
+C:\source\2nd Web Apps Attempt\BirthdayCard\bin\roslyn\System.Reflection.Metadata.dll
+C:\source\2nd Web Apps Attempt\BirthdayCard\bin\roslyn\vbc.exe
+C:\source\2nd Web Apps Attempt\BirthdayCard\bin\roslyn\VBCSCompiler.exe
+C:\source\2nd Web Apps Attempt\BirthdayCard\bin\roslyn\VBCSCompiler.exe.config
+C:\source\2nd Web Apps Attempt\BirthdayCard\bin\BirthdayCard.dll.config
+C:\source\2nd Web Apps Attempt\BirthdayCard\bin\BirthdayCard.dll
+C:\source\2nd Web Apps Attempt\BirthdayCard\bin\BirthdayCard.pdb
+C:\source\2nd Web Apps Attempt\BirthdayCard\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\source\2nd Web Apps Attempt\BirthdayCard\bin\Microsoft.Web.Infrastructure.dll
+C:\source\2nd Web Apps Attempt\BirthdayCard\bin\System.Web.Helpers.dll
+C:\source\2nd Web Apps Attempt\BirthdayCard\bin\System.Web.Mvc.dll
+C:\source\2nd Web Apps Attempt\BirthdayCard\bin\System.Web.Razor.dll
+C:\source\2nd Web Apps Attempt\BirthdayCard\bin\System.Web.Webpages.Deployment.dll
+C:\source\2nd Web Apps Attempt\BirthdayCard\bin\System.Web.Webpages.dll
+C:\source\2nd Web Apps Attempt\BirthdayCard\bin\System.Web.Webpages.Razor.dll
+C:\source\2nd Web Apps Attempt\BirthdayCard\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\source\2nd Web Apps Attempt\BirthdayCard\bin\System.Web.Razor.xml
+C:\source\2nd Web Apps Attempt\BirthdayCard\bin\System.Web.Webpages.xml
+C:\source\2nd Web Apps Attempt\BirthdayCard\bin\System.Web.Webpages.Deployment.xml
+C:\source\2nd Web Apps Attempt\BirthdayCard\bin\System.Web.Webpages.Razor.xml
+C:\source\2nd Web Apps Attempt\BirthdayCard\bin\System.Web.Helpers.xml
+C:\source\2nd Web Apps Attempt\BirthdayCard\bin\System.Web.Mvc.xml
+C:\source\2nd Web Apps Attempt\BirthdayCard\obj\Debug\BirthdayCard.csprojResolveAssemblyReference.cache
+C:\source\2nd Web Apps Attempt\BirthdayCard\obj\Debug\BirthdayCard.dll
+C:\source\2nd Web Apps Attempt\BirthdayCard\obj\Debug\BirthdayCard.pdb

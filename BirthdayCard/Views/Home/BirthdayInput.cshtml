@@ -1,0 +1,9 @@
+﻿@model BirthdayCard.Models.BirthdayInfo
+@using (Html.BeginForm())
+{
+    <p>Name: @Html.TextBoxFor(t => t.From)</p>
+    <p>Phone: @Html.TextBoxFor(t => t.To)</p>
+    <p>Phone: @Html.TextBoxFor(t => t.Message)</p>
+
+    <input type="submit" value="Send Card" />
+}

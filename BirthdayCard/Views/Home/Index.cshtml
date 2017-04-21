@@ -1,26 +1,16 @@
-﻿@model BirthdayCard.Models.BirthdayInfo
-<link href="~/Content/bootstrap.css" rel="stylesheet" />
-<style>
-    .btn a {
-        color: white;
-        text-decoration: none;
-    }
-
-    body {
-        background-color: #f1f1f1;
-    }
-</style>
-<div class="text-center">
-    <h1>Send a Birthday Card</h1>
-</div>
-
-@using (Html.BeginForm())
-{
-    @Html.ValidationSummary()
-    <p>From: @Html.TextBoxFor(t => t.From)</p>
-    <p>To: @Html.TextBoxFor(t => t.To)</p>
-    <p>Message: @Html.TextBoxFor(t => t.Message)</p>
-    <div class="btn">
-        <input type="submit" value="Send Card" />
-    </div>
+﻿
+@{
+    Layout = null;
 }
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+
+</head>
+<body>
+    
+</body>
+</html>

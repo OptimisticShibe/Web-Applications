@@ -15,6 +15,11 @@ namespace BirthdayCard.Controllers
             return View();
         }
 
+        public ActionResult BirthdayInput()
+        {
+            return View();
+        }
+
         public ActionResult Confirmation()
         {
             return View();
