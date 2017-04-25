@@ -1,5 +1,8 @@
 ﻿using HelloWorld.Models;
 using System.Collections.Generic;
+using System.Web.Caching;
+using System.Web.UI;
+using System.Web;
 
 namespace HelloWorld
 {
@@ -14,14 +17,31 @@ namespace HelloWorld
         {
             get
             {
-                var items = new[]
+                // Check if the MyProducts is NOT cached
+                if (HttpContext.Current.Cache["MyProducts"] == null)
+                {
+                    var items = new[]
                     {
-                    new Product{ ProductId=101, Name = "Baseball", Description="balls", Price=14.20m},
-                    new Product{ ProductId=102, Name="Football", Description="nfl", Price=9.24m},
+                    new Product{ Name = "Baseball"},
+                    new Product{ Name="Football"},
                     new Product{ Name="Tennis ball"} ,
                     new Product{ Name="Golf ball"},
                 };
-                return items;
+
+                    //HttpContext.Current.Cache.Insert("MyProducts",
+                    //                         items,
+                    //                         null,
+                    //                         System.DateTime.Now.AddSeconds(30),
+                    //                         Cache.NoSlidingExpiration);
+
+                    HttpContext.Current.Cache.Insert("MyProducts",
+                                             items,
+                                             null,
+                                             Cache.NoAbsoluteExpiration, new System.TimeSpan(0, 0, 5));
+
+                }
+
+                return (IEnumerable<Product>)HttpContext.Current.Cache["MyProducts"];
             }
         }
     }

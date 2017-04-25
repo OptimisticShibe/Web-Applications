@@ -4,9 +4,12 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using HelloWorld.Models;
+using System.Web.UI; //For Caching
 
 namespace HelloWorld.Controllers
 {
+    [Logging]
+    [AuthorizeIPAddress]
     public class HomeController : Controller
     {
         //public ActionResult Products()
@@ -49,9 +52,12 @@ namespace HelloWorld.Controllers
             return View(productRepository.Products.First());
         }
 
+        //Only want one cache at a time if possible -- other in ProductRepository
+        //[OutputCache(Duration = 15, Location = OutputCacheLocation.Any, VaryByParam = "none")]
         public ActionResult Products()
         {
             return View(productRepository.Products);
+
         }
 
         // GET: Home
@@ -79,6 +85,49 @@ namespace HelloWorld.Controllers
             }
         }
 
-        
+        public PartialViewResult IncrementCount()
+        {
+            int count = 0;
+
+            // Check if MyCount exists
+            if (Session["MyCount"] != null)
+            {
+                count = (int)Session["MyCount"];
+                count++;
+            }
+
+            // Create the MyCount session variable
+            Session["MyCount"] = count;
+
+            return new PartialViewResult();
+        }
+
+        public ActionResult Login()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult Login(LoginModel logIn)
+        {
+            Session["UserName"] = logIn.UserName;
+            return RedirectToAction("index"); //This is what I was missing. Both lines.
+        }
+
+        public ActionResult Logoff()
+        {
+            Session["UserName"] = null;
+            return RedirectToAction("Index");
+        }
+
+        public PartialViewResult DisplayLoginName()
+        {
+            string User = null;
+            if (Session["UserName"] != null)
+            {
+                User = (string)Session["UserName"];
+            }
+            return new PartialViewResult();
+        }
     }
 }

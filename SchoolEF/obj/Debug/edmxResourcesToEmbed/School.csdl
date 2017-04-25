@@ -25,10 +25,10 @@
     <Key>
       <PropertyRef Name="UserId" />
     </Key>
+    <Property Name="UserId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="UserName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
     <Property Name="UserPassword" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
     <NavigationProperty Name="ClassMasters" Relationship="Self.UserClasses" FromRole="Users" ToRole="ClassMaster" />
-    <Property Name="UserId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
   </EntityType>
   <Association Name="UserClasses">
     <End Role="ClassMaster" Type="Self.ClassMaster" Multiplicity="*" />
@@ -75,10 +75,6 @@
       <Parameter Name="new_diagramname" Mode="In" Type="String" />
     </FunctionImport>
     <FunctionImport Name="sp_upgraddiagrams" />
-    <AssociationSet Name="UserClasses1" Association="SchoolModel.UserClasses1">
-      <End Role="ClassMaster" EntitySet="ClassMasters" />
-      <End Role="User" EntitySet="Users" />
-    </AssociationSet>
   </EntityContainer>
   <ComplexType Name="RetrieveClassesForStudent_Result">
     <Property Type="Int32" Name="UserId" Nullable="false" />
@@ -95,8 +91,4 @@
     <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
     <Property Type="Int32" Name="OwnerID" Nullable="false" />
   </ComplexType>
-  <Association Name="UserClasses1">
-    <End Type="SchoolModel.ClassMaster" Role="ClassMaster" Multiplicity="*" />
-    <End Type="SchoolModel.User" Role="User" Multiplicity="*" />
-  </Association>
 </Schema>

@@ -36,6 +36,9 @@
       <EndProperty Name="ClassMaster">
         <ScalarProperty Name="ClassId" ColumnName="ClassId" />
       </EndProperty>
+      <EndProperty Name="Users">
+        <ScalarProperty Name="UserId" ColumnName="UserId" />
+      </EndProperty>
     </AssociationSetMapping>
     <FunctionImportMapping FunctionImportName="RetrieveClassesForStudent" FunctionName="SchoolModel.Store.RetrieveClassesForStudent">
       <ResultMapping>
@@ -69,13 +72,5 @@
     </FunctionImportMapping>
     <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="SchoolModel.Store.sp_renamediagram" />
     <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="SchoolModel.Store.sp_upgraddiagrams" />
-    <AssociationSetMapping Name="UserClasses1" TypeName="SchoolModel.UserClasses1" StoreEntitySet="UserClasses">
-      <EndProperty Name="User">
-        <ScalarProperty Name="UserId" ColumnName="UserId" />
-      </EndProperty>
-      <EndProperty Name="ClassMaster">
-        <ScalarProperty Name="ClassId" ColumnName="ClassId" />
-      </EndProperty>
-    </AssociationSetMapping>
   </EntityContainerMapping>
 </Mapping>
