@@ -33,7 +33,7 @@ namespace HelloWorld
             DependencyResolver.SetResolver(new AutofacDependencyResolver(container));
         }
 
-        protected void Application_Error()
+        protected void xxApplication_Error() // Do xx before doing Cookie
         {
             var exception = Server.GetLastError();
             Server.ClearError();

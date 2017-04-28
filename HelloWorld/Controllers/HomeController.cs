@@ -8,8 +8,8 @@ using System.Web.UI; //For Caching
 
 namespace HelloWorld.Controllers
 {
-    [Logging]
-    [AuthorizeIPAddress]
+    //[Logging]
+    //[AuthorizeIPAddress]
     public class HomeController : Controller
     {
         //public ActionResult Products()
@@ -110,7 +110,7 @@ namespace HelloWorld.Controllers
         [HttpPost]
         public ActionResult Login(LoginModel logIn)
         {
-            Session["UserName"] = logIn.UserName;
+            Session["UserName"] = logIn.UserName; // Showing that you can use a Session object to mimic login/logoff
             return RedirectToAction("index"); //This is what I was missing. Both lines.
         }
 
@@ -128,6 +128,36 @@ namespace HelloWorld.Controllers
                 User = (string)Session["UserName"];
             }
             return new PartialViewResult();
+        }
+
+        public ActionResult SetCookie()
+        {
+            // Name the cookie as MyCookie for later retrieval
+            var cookie = new HttpCookie("MyCookie");
+
+            // This cookie will expire about one minute, depends on the browser
+            cookie.Expires = DateTime.Now.AddSeconds(20);
+
+            // This cookie will have a simple string value of myUserName
+            // but it can be any kind of object.
+            cookie.Value = "myUserName";
+
+            // Add the cookie to the response to send it to the browser
+            HttpContext.Response.Cookies.Add(cookie);
+
+            return View(cookie);
+        }
+
+        public ActionResult GetCookie()
+        {
+            return View(HttpContext.Request.Cookies["MyCookie"]);
+        }
+
+        [Authorize]
+        [IsAdministrator]
+        public ActionResult Notes()
+        {
+            return View();
         }
     }
 }

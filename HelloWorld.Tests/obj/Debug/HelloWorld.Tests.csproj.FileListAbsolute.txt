@@ -38,3 +38,4 @@ C:\source\2nd Web Apps Attempt\HelloWorld.Tests\bin\Debug\System.Web.WebPages.Ra
 C:\source\2nd Web Apps Attempt\HelloWorld.Tests\bin\Debug\Autofac.xml
 C:\source\2nd Web Apps Attempt\HelloWorld.Tests\obj\Debug\HelloWorld.Tests.dll
 C:\source\2nd Web Apps Attempt\HelloWorld.Tests\obj\Debug\HelloWorld.Tests.pdb
+C:\source\2nd Web Apps Attempt\HelloWorld.Tests\bin\Debug\Autofac.Integration.Mvc.xml
