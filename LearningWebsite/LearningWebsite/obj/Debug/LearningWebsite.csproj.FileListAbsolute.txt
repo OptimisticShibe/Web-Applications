@@ -67,3 +67,9 @@ C:\source\2nd Web Apps Attempt\LearningWebsite\LearningWebsite\bin\Microsoft.Owi
 C:\source\2nd Web Apps Attempt\LearningWebsite\LearningWebsite\obj\Debug\LearningWebsite.csprojResolveAssemblyReference.cache
 C:\source\2nd Web Apps Attempt\LearningWebsite\LearningWebsite\obj\Debug\LearningWebsite.dll
 C:\source\2nd Web Apps Attempt\LearningWebsite\LearningWebsite\obj\Debug\LearningWebsite.pdb
+C:\source\2nd Web Apps Attempt\LearningWebsite\LearningWebsite\bin\LearningWebsite.Business.dll
+C:\source\2nd Web Apps Attempt\LearningWebsite\LearningWebsite\bin\LearningWebsite.Business.pdb
+C:\source\2nd Web Apps Attempt\LearningWebsite\LearningWebsite\bin\Autofac.dll
+C:\source\2nd Web Apps Attempt\LearningWebsite\LearningWebsite\bin\Autofac.Integration.Mvc.dll
+C:\source\2nd Web Apps Attempt\LearningWebsite\LearningWebsite\bin\Autofac.xml
+C:\source\2nd Web Apps Attempt\LearningWebsite\LearningWebsite\bin\Autofac.Integration.Mvc.xml
