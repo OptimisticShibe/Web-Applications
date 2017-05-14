@@ -44,7 +44,7 @@ namespace LearningWebsite
 
             foreach (var assemblyName in assemblyNames)
             {
-                if (assemblyName.FullName.ToLower().Contains("LearningWebsite"))
+                if (assemblyName.FullName.ToLower().Contains("learningwebsite"))
                 {
                     assembly = Assembly.Load(assemblyName);
                     RegisterAssemblyTypes(builder, assembly);

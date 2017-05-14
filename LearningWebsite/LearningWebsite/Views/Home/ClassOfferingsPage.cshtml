@@ -1,0 +1,14 @@
+﻿@model LearningWebsite.Models.ClassOfferingsPageModel
+@{
+    ViewBag.Title = "ClassOfferingsPage";
+}
+
+<h2>ClassOfferingsPage</h2>
+
+<div class="row">
+    @foreach (var classOffering in Model.Classes)
+    {
+        <p>@classOffering.Name</p>
+        
+    }
+</div>

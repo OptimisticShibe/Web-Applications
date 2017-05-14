@@ -24,3 +24,6 @@ C:\source\2nd Web Apps Attempt\LearningWebsite\LearningWebsite.Repository\bin\De
 C:\source\2nd Web Apps Attempt\LearningWebsite\LearningWebsite.Repository\bin\Debug\System.Web.WebPages.Deployment.xml
 C:\source\2nd Web Apps Attempt\LearningWebsite\LearningWebsite.Repository\bin\Debug\System.Web.WebPages.Razor.xml
 C:\source\2nd Web Apps Attempt\LearningWebsite\LearningWebsite.Repository\bin\Debug\EntityFramework.xml
+C:\source\2nd Web Apps Attempt\LearningWebsite\LearningWebsite.Repository\bin\Debug\LearningWebsite.Repository.dll.config
+C:\source\2nd Web Apps Attempt\LearningWebsite\LearningWebsite.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\source\2nd Web Apps Attempt\LearningWebsite\LearningWebsite.Repository\bin\Debug\EntityFramework.SqlServer.xml

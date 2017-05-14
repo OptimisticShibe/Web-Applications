@@ -73,3 +73,7 @@ C:\source\2nd Web Apps Attempt\LearningWebsite\LearningWebsite\bin\Autofac.dll
 C:\source\2nd Web Apps Attempt\LearningWebsite\LearningWebsite\bin\Autofac.Integration.Mvc.dll
 C:\source\2nd Web Apps Attempt\LearningWebsite\LearningWebsite\bin\Autofac.xml
 C:\source\2nd Web Apps Attempt\LearningWebsite\LearningWebsite\bin\Autofac.Integration.Mvc.xml
+C:\source\2nd Web Apps Attempt\LearningWebsite\LearningWebsite\bin\LearningWebsite.Repository.dll
+C:\source\2nd Web Apps Attempt\LearningWebsite\LearningWebsite\bin\LearningWebsite.UserDatabase.dll
+C:\source\2nd Web Apps Attempt\LearningWebsite\LearningWebsite\bin\LearningWebsite.Repository.pdb
+C:\source\2nd Web Apps Attempt\LearningWebsite\LearningWebsite\bin\LearningWebsite.UserDatabase.pdb
